@@ -91,6 +91,9 @@
             <p>30 seconds video demostrating human speech.</p>
           </details> 
         </section>
+        <hr>
+          
+        <h1>Meeting Times<h1>
         <section>
           <form>
             <fieldset>
@@ -99,6 +102,10 @@
             <input type="text" id="fname" name="fname"><br><br>
             <label for="lname">Last name:</label>
             <input type="text" id="lname" name="lname"><br><br>
+            <input type="radio" id="gender1" name="gender1" value="gender1">
+            <label for="gender1">Male</label><br>
+            <input type="radio" id="gender2" name="gender2" value="gender2">
+            <label for="gender2">Female</label><br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email"><br><br>
             <label for="date">Date:</label>
@@ -112,9 +119,9 @@
             <label for="day2">Tuesday</label><br>
             <input type="checkbox" id="day3" name="day3" value="Wed">
             <label for="day3">Wednesday</label><br>
-            input type="checkbox" id="day4" name="day4" value="Thurs">
+            <input type="checkbox" id="day4" name="day4" value="Thurs">
             <label for="day3">Thursday</label><br>
-            input type="checkbox" id="day5" name="day5" value="Fri">
+            <input type="checkbox" id="day5" name="day5" value="Fri">
             <label for="day3">Friday</label><br>
             
             <label for="comms">Choose your preferred medium from list:</label>
@@ -126,6 +133,17 @@
               <option value="Email">
             </datalist>
             </fieldset>
+            
+            <textarea rows="5" cols="40">Write other info</textarea>
+            <label for="role">Choose a role:</label>
+            <select name="role" id="role">
+              <option value="ui">Ui</option>
+              <option value="backend">Backend</option>
+              <option value="repo">Repo</option>
+              <option value="docs">Docs</option>
+            </select>
+            <br><br>
+            <input type="button" value="Submit">
           </form>
         </section>
     </main>
